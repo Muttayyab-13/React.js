@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+
+  font-family: Arial, sans-serif;
+  background-color: #d8e7f5;
+}
+
+.about-us {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #d8e7f5;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.image-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.content {
+  max-width: 500px;
+  padding-left: 20px;
+}
+
+.content h2 {
+  color: rgba(254, 161, 22, 1);
+
+  font-family: Pacifico;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  width: 83.24px;
+  height: 24.04px;
+  top: 1377px;
+  left: 866.55px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.content h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  color: rgba(15, 23, 43, 1);
+}
+
+.content h1 span {
+  color: #ff9800;
+}
+
+.content h1 img {
+  width: 32.98px;
+  height: 40.07px;
+  top: 1413.37px;
+  left: 1122.22px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.content p {
+  margin-bottom: 20px;
+  line-height: 1.5;
+
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.info span {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.info div {
+  margin-right: 20px;
+}
+
+.info h3 {
+  font-size: 48px;
+  color: #ff9800;
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57.6px;
+  text-align: left;
+}
+
+.years {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 40px;
+}
+
+.years span {
+  width: 65.17px;
+  height: 24.04px;
+
+  gap: 0px;
+  opacity: 0px;
+
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.read-more {
+  width: Hug (187.49px) px;
+  height: Hug (56.1px) px;
+
+  padding: 16px 48px 16px 48px;
+  gap: 10px;
+  border-radius: 2px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+
+  border: 1px solid rgba(254, 161, 22, 1);
+  background: rgba(254, 161, 22, 1);
+
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+
+  color: rgba(255, 255, 255, 1);
+}
